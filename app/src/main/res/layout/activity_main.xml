@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.example.customview.MyCustomView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mcv_age="25"
+        app:mcv_icon="@drawable/my_icon"
+        app:mcv_name="John Smith"
+        app:mcv_number="+1 524 96325" />
+
+    <com.example.customview.MyCustomView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:mcv_age="40"
+        app:mcv_icon="@tools:sample/avatars"
+        app:mcv_name="Jack Oliver"
+        app:mcv_number="+4 521 632" />
+
+</LinearLayout>
